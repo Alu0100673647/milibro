@@ -1,0 +1,117 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/versions/node/v4.6.1/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/versions/node/v4.6.1/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'express-ejs-layout' ]
+2 info using npm@2.15.9
+3 info using node@v4.6.1
+4 verbose install initial load of /home/ubuntu/workspace/milibro/package.json
+5 warn package.json MyBook@0.0.1 bugs.url field must be a string url. Deleted.
+6 warn package.json MyBook@0.0.1 Normalized value of bugs field is an empty object. Deleted.
+7 warn package.json MyBook@0.0.1 No README data
+8 warn package.json MyBook@0.0.1 homepage field must start with a protocol.
+9 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/milibro/node_modules/async/package.json
+10 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/milibro/node_modules/express/package.json
+11 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/milibro/node_modules/fs-extra/package.json
+12 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/milibro/node_modules/gh-pages/package.json
+13 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/milibro/node_modules/gitbook/package.json
+14 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/milibro/node_modules/gitbook-cli/package.json
+15 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/milibro/node_modules/gitbook-start-heroku-merquililycony/package.json
+16 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/milibro/node_modules/gulp/package.json
+17 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/milibro/node_modules/gulp-git/package.json
+18 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/milibro/node_modules/gulp-install/package.json
+19 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/milibro/node_modules/gulp-run/package.json
+20 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/milibro/node_modules/gulp-shell/package.json
+21 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/milibro/node_modules/gulp-watch/package.json
+22 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/milibro/node_modules/heroku-cli/package.json
+23 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/milibro/node_modules/simple-git/package.json
+24 info package.json heroku-cli@6.0.2 No description
+25 info package.json heroku-cli@6.0.2 No repository field.
+26 info package.json heroku-cli@6.0.2 No README data
+27 info package.json heroku-cli@6.0.2 No license field.
+28 verbose readDependencies loading dependencies from /home/ubuntu/workspace/milibro/package.json
+29 silly cache add args [ 'express-ejs-layout', null ]
+30 verbose cache add spec express-ejs-layout
+31 silly cache add parsed spec Result {
+31 silly cache add   raw: 'express-ejs-layout',
+31 silly cache add   scope: null,
+31 silly cache add   name: 'express-ejs-layout',
+31 silly cache add   rawSpec: '',
+31 silly cache add   spec: 'latest',
+31 silly cache add   type: 'tag' }
+32 silly addNamed express-ejs-layout@latest
+33 verbose addNamed "latest" is being treated as a dist-tag for express-ejs-layout
+34 info addNameTag [ 'express-ejs-layout', 'latest' ]
+35 silly mapToRegistry name express-ejs-layout
+36 silly mapToRegistry using default registry
+37 silly mapToRegistry registry https://registry.npmjs.org/
+38 silly mapToRegistry data Result {
+38 silly mapToRegistry   raw: 'express-ejs-layout',
+38 silly mapToRegistry   scope: null,
+38 silly mapToRegistry   name: 'express-ejs-layout',
+38 silly mapToRegistry   rawSpec: '',
+38 silly mapToRegistry   spec: 'latest',
+38 silly mapToRegistry   type: 'tag' }
+39 silly mapToRegistry uri https://registry.npmjs.org/express-ejs-layout
+40 verbose addNameTag registry:https://registry.npmjs.org/express-ejs-layout not in flight; fetching
+41 verbose request uri https://registry.npmjs.org/express-ejs-layout
+42 verbose request no auth needed
+43 info attempt registry request try #1 at 8:26:44 PM
+44 verbose request using bearer token for auth
+45 verbose request id a463d1cc7671637d
+46 http request GET https://registry.npmjs.org/express-ejs-layout
+47 http 404 https://registry.npmjs.org/express-ejs-layout
+48 verbose headers { 'content-type': 'application/json',
+48 verbose headers   'cache-control': 'max-age=0',
+48 verbose headers   'content-length': '2',
+48 verbose headers   'accept-ranges': 'bytes',
+48 verbose headers   date: 'Fri, 02 Dec 2016 20:26:45 GMT',
+48 verbose headers   via: '1.1 varnish',
+48 verbose headers   connection: 'keep-alive',
+48 verbose headers   'x-served-by': 'cache-lhr6326-LHR',
+48 verbose headers   'x-cache': 'MISS',
+48 verbose headers   'x-cache-hits': '0',
+48 verbose headers   'x-timer': 'S1480710404.451796,VS0,VE682',
+48 verbose headers   vary: 'Accept-Encoding' }
+49 silly get cb [ 404,
+49 silly get   { 'content-type': 'application/json',
+49 silly get     'cache-control': 'max-age=0',
+49 silly get     'content-length': '2',
+49 silly get     'accept-ranges': 'bytes',
+49 silly get     date: 'Fri, 02 Dec 2016 20:26:45 GMT',
+49 silly get     via: '1.1 varnish',
+49 silly get     connection: 'keep-alive',
+49 silly get     'x-served-by': 'cache-lhr6326-LHR',
+49 silly get     'x-cache': 'MISS',
+49 silly get     'x-cache-hits': '0',
+49 silly get     'x-timer': 'S1480710404.451796,VS0,VE682',
+49 silly get     vary: 'Accept-Encoding' } ]
+50 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/express-ejs-layout
+50 verbose stack     at makeError (/home/ubuntu/.nvm/versions/node/v4.6.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+50 verbose stack     at CachingRegistryClient.<anonymous> (/home/ubuntu/.nvm/versions/node/v4.6.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+50 verbose stack     at Request._callback (/home/ubuntu/.nvm/versions/node/v4.6.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+50 verbose stack     at Request.self.callback (/home/ubuntu/.nvm/versions/node/v4.6.1/lib/node_modules/npm/node_modules/request/request.js:200:22)
+50 verbose stack     at emitTwo (events.js:87:13)
+50 verbose stack     at Request.emit (events.js:172:7)
+50 verbose stack     at Request.<anonymous> (/home/ubuntu/.nvm/versions/node/v4.6.1/lib/node_modules/npm/node_modules/request/request.js:1067:10)
+50 verbose stack     at emitOne (events.js:82:20)
+50 verbose stack     at Request.emit (events.js:169:7)
+50 verbose stack     at IncomingMessage.<anonymous> (/home/ubuntu/.nvm/versions/node/v4.6.1/lib/node_modules/npm/node_modules/request/request.js:988:12)
+51 verbose statusCode 404
+52 verbose pkgid express-ejs-layout
+53 verbose cwd /home/ubuntu/workspace/milibro
+54 error Linux 4.2.0-c9
+55 error argv "/home/ubuntu/.nvm/versions/node/v4.6.1/bin/node" "/home/ubuntu/.nvm/versions/node/v4.6.1/bin/npm" "install" "--save" "express-ejs-layout"
+56 error node v4.6.1
+57 error npm  v2.15.9
+58 error code E404
+59 error 404 Registry returned 404 for GET on https://registry.npmjs.org/express-ejs-layout
+59 error 404
+59 error 404 'express-ejs-layout' is not in the npm registry.
+59 error 404 You should bug the author to publish it (or use the name yourself!)
+59 error 404 It was specified as a dependency of 'MyBook'
+59 error 404
+59 error 404 Note that you can also install from a
+59 error 404 tarball, folder, http url, or git url.
+60 verbose exit [ 1, true ]
