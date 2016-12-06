@@ -43,17 +43,18 @@
   "Directorio": {
     "nombre_dir": "milibro"
   },
-  "devDependencies":{
+  "devDependencies": {
     "async": "^1.4.0",
     "fs-extra": "^0.22.1",
     "gh-pages": "^0.3.1",
     "gitbook": "^2.1.0",
     "gitbook-cli": "^0.3.4",
-     "gulp": "^3.9.1",
-     "gulp-shell": "^0.5.2"
+    "gulp": "^3.9.1",
+    "gulp-shell": "^0.5.2"
   },
   "dependencies": {
     "express": "^4.13.4",
+    "express-ejs-layouts": "^2.2.0",
     "gitbook-start-heroku-merquililycony": "^2.2.24",
     "gulp-git": "^1.11.3",
     "gulp-install": "^0.6.0",
