@@ -19,7 +19,7 @@ app.get('/', function(request, response) {
 });
 
 
-/*app.post('/sync', function(request, response) {
+app.post('/sync', function(request, response) {
         function puts(error, stdout, stderr) {
            console.log("Salida:"+stdout);
            if(error) console.log("Error:"+error);
@@ -28,7 +28,7 @@ app.get('/', function(request, response) {
    exec('git clone https://github.com/ULL-ESIT-SYTW-1617/nueva-funcionalidad-para-el-paquete-npm-plugins-merquililycony');
    exec("git pull https://github.com/ULL-ESIT-SYTW-1617/nueva-funcionalidad-para-el-paquete-npm-plugins-merquililycony.git  master", puts);
    response.redirect('/');
-});*/
+});
 
 
     // escuchar
