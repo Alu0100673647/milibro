@@ -34,7 +34,7 @@
     "ruta": "/home/usuario/src/sytw/gitbook-start-iaas-ull"
   },
   "engines": {
-    "node": "0.10.x"
+    "node": "^4.6.1"
   },
   "homepage": " ",
   "Heroku": {
