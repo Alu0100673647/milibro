@@ -2,7 +2,7 @@
   "name": "MyBook",
   "version": "0.0.1",
   "description": "GitBook Boilerplate",
-  "main": "gitbook-start-heroku.js",
+  "main": "app.js",
   "scripts": {
     "generate-gitbook": "./scripts/losh generate-gitbook",
     "generate-wiki": "./scripts/losh generate-wiki",
@@ -53,6 +53,7 @@
     "gitbook-start-heroku-merquililycony": "^2.2.24",
     "gulp": "^3.9.1",
     "gulp-git": "^1.11.3",
+    "gitbook-cli": "^0.3.4",
     "gulp-install": "^0.6.0",
     "gulp-run": "^1.7.1",
     "gulp-shell": "^0.5.2",
